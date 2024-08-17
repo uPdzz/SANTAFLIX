@@ -1,0 +1,33 @@
+header{
+font-size: 32px;
+color:white;
+background: black;
+display: flex;
+justify-content: center
+}
+body{
+color: white;
+background: black;
+}
+section{
+color:white;
+background:black(119, 119, 119);
+display: flex;
+justify-content: center;
+}
+img{
+ height: 200px;
+
+}
+.seletor{
+display: flex;
+overflow-x: auto;
+gap: 20px;
+
+}
+.seletor img{
+    opacity:0.5;
+}
+.seletor img:hover{
+    opacity: 1.0;
+}
